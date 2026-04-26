@@ -67,55 +67,55 @@ importers:
         version: 4.1.4(@types/node@24.12.2)(happy-dom@20.9.0)(vite@7.3.2(@types/node@24.12.2)(jiti@2.6.1))
     optionalDependencies:
       '@biomejs/cli-darwin-arm64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-darwin-arm64
       '@biomejs/cli-darwin-x64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-darwin-x64
       '@biomejs/cli-linux-arm64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-linux-arm64
       '@biomejs/cli-linux-arm64-musl':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-linux-arm64-musl
       '@biomejs/cli-linux-x64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-linux-x64
       '@biomejs/cli-linux-x64-musl':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-linux-x64-musl
       '@biomejs/cli-win32-arm64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-win32-arm64
       '@biomejs/cli-win32-x64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-win32-x64
 
   packages/@biomejs/biome:
     optionalDependencies:
       '@biomejs/cli-darwin-arm64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-darwin-arm64
       '@biomejs/cli-darwin-x64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-darwin-x64
       '@biomejs/cli-linux-arm64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-linux-arm64
       '@biomejs/cli-linux-arm64-musl':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-linux-arm64-musl
       '@biomejs/cli-linux-x64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-linux-x64
       '@biomejs/cli-linux-x64-musl':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-linux-x64-musl
       '@biomejs/cli-win32-arm64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-win32-arm64
       '@biomejs/cli-win32-x64':
-        specifier: 2.4.13
+        specifier: 2.4.14
         version: link:../cli-win32-x64
 
   packages/@biomejs/cli-darwin-arm64: {}
@@ -1804,11 +1804,6 @@ packages:
   prettier@2.8.8:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
-    hasBin: true
-
-  prettier@3.8.1:
-    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
-    engines: {node: '>=14'}
     hasBin: true
 
   prettier@3.8.3:
@@ -3875,8 +3870,6 @@ snapshots:
       svelte: 5.46.4
 
   prettier@2.8.8: {}
-
-  prettier@3.8.1: {}
 
   prettier@3.8.3: {}
 
